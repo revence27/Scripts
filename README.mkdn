@@ -3,4 +3,6 @@ Random Scripts
 
 Scripts I have written for my benefit. They are throw-away, except that they did not get thrown away.
 
+They are, generally, single-use; but since I run into the same issues over and over again, I need to be able to pick them up again some time.
+
 Their description is often in the head of the file.

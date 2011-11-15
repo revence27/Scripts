@@ -1,0 +1,33 @@
+#!  /usr/bin/env ruby
+
+# For renaming my MP3 files according to what is in the ID3 tags.
+#
+# To do a dry run:
+#
+# $ DRY=yes ./rename file1.mp3
+#
+# A dry run will print to standard out what it would have done.
+# If the environment variable DRY is not set, it actually does it.
+
+require 'mp3info'
+require 'fileutils'
+
+def rmain args
+  args.each do |mp3|
+    finom = Mp3Info.open mp3 do |info|
+      info.tag.title
+    end
+    unless ENV['DRY'] then
+      begin
+        FileUtils::mv mp3, %[#{finom}.mp3]
+      rescue ArgumentError => ae
+        $stderr.puts %[#{mp3}: #{ae.message}]
+      end
+    else
+      puts('%s -> %s' % [mp3, %[#{finom}.mp3]])
+    end
+  end
+  0
+end
+
+exit(rmain(ARGV))

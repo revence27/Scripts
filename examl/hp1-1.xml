@@ -1,0 +1,68 @@
+<questions subject="English Literature" title="Harry Potter and the Philosopher’s Stone">
+  <section title="Chapter One—The Boy Who Lived">
+    <item>
+      <question ref="7">On which street do the Dursleys reside?</question>
+      <answers>
+        <choice>Private Drive</choice>
+        <choice>Privet Drive</choice>
+        <choice>Provost Drive</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="8">What was the tabby cat reading?</question>
+      <answers>
+        <choice>a map, and a street sign</choice>
+        <choice>a map, and a watch</choice>
+        <choice>a map, and a newspaper</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="9">How many people did Mr. Dursley yell at before lunch?</question>
+      <answers>
+        <choice>eight</choice>
+        <choice>eleven</choice>
+        <choice>five</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="10">Which new word did Dudley learn?</question>
+      <answers>
+        <choice>can’t (can not)</choice>
+        <choice>mayn’t (may not)</choice>
+        <choice>shan’t (shall not)</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="12-13">What colour were the cloaks of Albus Dumbledore and Professor McGonagall?</question>
+      <answers>
+        <choice>pink, and gold</choice>
+        <choice>purple, and emerald</choice>
+        <choice>silver, and black</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="14">What is the real name of “You-Know-Who”?</question>
+      <answers>
+        <choice>Herbert</choice>
+        <choice>Voldemar</choice>
+        <choice>Voldemort</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="16">Who lent Hagrid the motorbike?</question>
+      <answers>
+        <choice>Serious Black</choice>
+        <choice>Seriously Black</choice>
+        <choice>Sirius Black</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="17">What was the shape of the cut on Harry Potter’s forehead?</question>
+      <answers>
+        <choice>a bolt of lightning</choice>
+        <choice>a motorbike</choice>
+        <choice>a peacock feather</choice>
+      </answers>
+    </item>
+  </section>
+</questions>

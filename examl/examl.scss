@@ -1,0 +1,263 @@
+$disp1: "Mutlu";
+$disp2: "Liberation Serif";
+
+$font1: "Liberation Sans";
+$font2: "Liberation Mono";
+
+body
+{
+  font-size: 20pt;
+  font-family: $font1;
+
+  h1, h2, h3, h4, h5, h6, #header
+  {
+    font-family: $disp2;
+    text-align: center;
+  }
+
+  #header
+  {
+    page: clearpage;
+    page-break-after: always;
+
+    #logo
+    {
+      font-family: $disp1;
+      font-size: 400%;
+      width: 100%;
+      string-set: schname content();
+    }
+
+    #address
+    {
+      font-size: 65%;
+      font-family: $font1;
+      margin-top: 3em;
+      display: none;
+    }
+
+    #course
+    {
+      margin-top: 5em;
+
+      #period
+      {
+        font-size: 75%;
+        font-family: $font2;
+      }
+
+      #subject
+      {
+        font-weight: bold;
+        string-set: subj content();
+      }
+    }
+
+    #bktitle
+    {
+      font-size: 200%;
+      font-weight: bold;
+      margin-top: 1em;
+      string-set: bktitle content();
+    }
+
+    #toc
+    {
+      font-size: xx-small;
+      margin-top: 4em;
+      font-family: $font1;
+      display: none;
+
+      table
+      {
+        text-align: center;
+        width: 100%;
+
+        .secnom
+        {
+          text-align: right;
+          width: 50%;
+        }
+
+        .link
+        {
+          text-align: center;
+          font-weight: bold;
+          font-variant: small-caps;
+
+          a
+          {
+            color: inherit;
+            text-decoration: inherit;
+            content: " Page " prince-script(messWithIt, target-counter(attr(href), page));
+          }
+        }
+      }
+    }
+  }
+
+  #trunk
+  {
+    font-size: 75%;
+
+    .section
+    {
+      page-break-before: always;
+
+      h1
+      {
+        string-set: sectitle content();
+        counter-increment: sections;
+      }
+
+      .question
+      {
+        font-weight: bold;
+        margin-top: 2em;
+        page-break-after: avoid;
+        counter-increment: questions;
+        
+        &:before
+        {
+          content: "Q" counter(questions) ": ";
+        }
+
+        .ref
+        {
+          font-weight: normal;
+          float: right;
+          font-size: xx-small;
+          margin-left: 1em;
+          padding-left: 1em;
+          content: "Page " content();
+          //  content: "(Page " prince-script(messWithIt, content()) ")";
+          font-variant: small-caps;
+        }
+      }
+
+      ol
+      {
+        page-break-inside: avoid;
+        list-style: lower-alpha;
+
+        li
+        {
+          &:marker
+          {
+            content: counter(list-item, lower-alpha) ")";
+          }
+        }
+      }
+    }
+  }
+
+  #index
+  {
+    page-break-before: always;
+    page: qanda;
+    font: inherit;
+    font-size: 50%;
+    display: none;
+
+    table
+    {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+
+      thead
+      {
+        font-family: $disp2;
+      }
+
+      tbody
+      {
+        tr
+        {
+          td
+          {
+
+          }
+
+          .answerbox
+          {
+            border: 1px dashed #000;
+            width: 1em;
+            height: 1em;
+          }
+
+          .qnum
+          {
+            font-family: $disp2;
+          }
+        }
+      }
+    }
+  }
+
+  #footer
+  {
+    font-size: 65%;
+    text-align: center;
+    margin-top: 4em;
+  }
+}
+
+@page
+{
+  font-family: $font2;
+
+  @bottom-right-corner
+  {
+    content: counter(page);
+  }
+
+  @bottom-left
+  {
+    content: string(subj);
+  }
+
+  @top-right
+  {
+    content: string(bktitle);
+  }
+
+  @top-left-corner
+  {
+    font-family: $disp1;
+    content: string(schname);
+  }
+}
+
+@page clearpage
+{
+  //  background: url('mabe.jpg');
+  //  background-resolution: 240dpi;
+
+  @top-right
+  {
+    content: "Date: "
+  }
+
+  @top-left-corner
+  {
+    content: "Name: ";
+    font-family: $font2;
+  }
+  
+  @top-center
+  {
+    content: "";
+    border-bottom: dashed 1px #000;
+  }
+
+  @bottom-center
+  {
+    content: "";
+  }
+}
+
+@page qanda
+{
+  size: a4 landscape;
+}

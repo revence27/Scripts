@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= book.name %> — <%= school.name %></title>
+    <script src="examl.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <div id="logo"><%=  school.name %></div>
+        <div id="bktitle"><%=  book.name %></div>
+        <div id="course">
+          <div id="subject"><%=  book.subject  %></div>
+          <div id="period"><%= time.month  %>, <%=  time.year %></div>
+        </div>
+      </div>
+      <div id="trunk">
+        <%  book.sections.each do |sec| %>
+        <div class="section">
+          <h1><%=  sec.title %></h1>
+          <%  sec.items.each do |item| %>
+            <div class="question"><%=  item.question %></div>
+            <ol>
+              <%  item.choices.each do |choice|  %>
+              <li><%=  choice %></li>
+              <%  end  %>
+            </ol>
+          <%  end  %>
+        </div>
+        <%  end  %>
+      </div>
+      <div id="footer">
+        &copy; <%= time.year %>, <%= school.name %>. All Rights Reserved.
+      </div>
+    </div>
+  </body>
+</html>

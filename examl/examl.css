@@ -1,0 +1,133 @@
+body {
+  font-size: 20pt;
+  font-family: "Liberation Sans"; }
+  body h1, body h2, body h3, body h4, body h5, body h6, body #header {
+    font-family: "Liberation Serif";
+    text-align: center; }
+  body #header {
+    page: clearpage;
+    page-break-after: always; }
+    body #header #logo {
+      font-family: "Mutlu";
+      font-size: 400%;
+      width: 100%;
+      string-set: schname content(); }
+    body #header #address {
+      font-size: 65%;
+      font-family: "Liberation Sans";
+      margin-top: 3em;
+      display: none; }
+    body #header #course {
+      margin-top: 5em; }
+      body #header #course #period {
+        font-size: 75%;
+        font-family: "Liberation Mono"; }
+      body #header #course #subject {
+        font-weight: bold;
+        string-set: subj content(); }
+    body #header #bktitle {
+      font-size: 200%;
+      font-weight: bold;
+      margin-top: 1em;
+      string-set: bktitle content(); }
+    body #header #toc {
+      font-size: xx-small;
+      margin-top: 4em;
+      font-family: "Liberation Sans";
+      display: none; }
+      body #header #toc table {
+        text-align: center;
+        width: 100%; }
+        body #header #toc table .secnom {
+          text-align: right;
+          width: 50%; }
+        body #header #toc table .link {
+          text-align: center;
+          font-weight: bold;
+          font-variant: small-caps; }
+          body #header #toc table .link a {
+            color: inherit;
+            text-decoration: inherit;
+            content: " Page " prince-script(messWithIt, target-counter(attr(href), page)); }
+  body #trunk {
+    font-size: 75%; }
+    body #trunk .section {
+      page-break-before: always; }
+      body #trunk .section h1 {
+        string-set: sectitle content();
+        counter-increment: sections; }
+      body #trunk .section .question {
+        font-weight: bold;
+        margin-top: 2em;
+        page-break-after: avoid;
+        counter-increment: questions; }
+        body #trunk .section .question:before {
+          content: "Q" counter(questions) ": "; }
+        body #trunk .section .question .ref {
+          font-weight: normal;
+          float: right;
+          font-size: xx-small;
+          margin-left: 1em;
+          padding-left: 1em;
+          content: "Page " content();
+          font-variant: small-caps; }
+      body #trunk .section ol {
+        page-break-inside: avoid;
+        list-style: lower-alpha; }
+        body #trunk .section ol li:marker {
+          content: counter(list-item,lower-alpha) ")"; }
+  body #index {
+    page-break-before: always;
+    page: qanda;
+    font: inherit;
+    font-size: 50%;
+    display: none; }
+    body #index table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em; }
+      body #index table thead {
+        font-family: "Liberation Serif"; }
+      body #index table tbody tr .answerbox {
+        border: 1px dashed #000;
+        width: 1em;
+        height: 1em; }
+      body #index table tbody tr .qnum {
+        font-family: "Liberation Serif"; }
+  body #footer {
+    font-size: 65%;
+    text-align: center;
+    margin-top: 4em; }
+
+@page {
+  font-family: "Liberation Mono";
+  @bottom-right-corner {
+    content: counter(page); }
+
+  @bottom-left {
+    content: string(subj); }
+
+  @top-right {
+    content: string(bktitle); }
+
+  @top-left-corner {
+    font-family: "Mutlu";
+    content: string(schname); } }
+
+@page clearpage {
+  @top-right {
+    content: "Date: "; }
+
+  @top-left-corner {
+    content: "Name: ";
+    font-family: "Liberation Mono"; }
+
+  @top-center {
+    content: "";
+    border-bottom: dashed 1px #000; }
+
+  @bottom-center {
+    content: ""; } }
+
+@page qanda {
+  size: a4 landscape; }

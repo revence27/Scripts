@@ -1,0 +1,68 @@
+<questions subject="English Literature" title="Harry Potter and the Philosopher’s Stone">
+  <section title="Chapter Three—The Letters from No One">
+    <item>
+      <question ref="28">What are the names of Dudley’s gang?</question>
+      <answers>
+        <choice>Dennis, Gordon, Malcolm, and Piers</choice>
+        <choice>Dudley, Gordon, Michael, and Peter</choice>
+        <choice>Richard, Gordon, Malcolm, and Polkiss</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="28">What is Dudley’s favourite sport?</question>
+      <answers>
+        <choice>antelope hunting</choice>
+        <choice>Harry hunting</choice>
+        <choice>rabbit hunting</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="30">Where was Uncle Vernon’s sister Marge holidaying?</question>
+      <answers>
+        <choice>Isle of Man</choice>
+        <choice>Isle of Sheppey</choice>
+        <choice>Isle of Wight</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="32">What did Harry’s Uncle and Aunt think he was getting too big for?</question>
+      <answers>
+        <choice>his boots</choice>
+        <choice>his clothes</choice>
+        <choice>his cupboard</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="33">What time did the repaired alarm clock ring?</question>
+      <answers>
+        <choice>6:00</choice>
+        <choice>6:15</choice>
+        <choice>6:42</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="34">Which song did Uncle Vernon hum?</question>
+      <answers>
+        <choice>Tie a Yellow Ribbon Round the Ole Oak Tree</choice>
+        <choice>Tiptoe through the Tulips</choice>
+        <choice>Wish Me Luck as You Wave Me Goodbye</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="34">On Saturday, what did Harry’s letters arrive in?</question>
+      <answers>
+        <choice>eggs</choice>
+        <choice>milk</choice>
+        <choice>pickle jars</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="36">On which day of the week was Harry’s eleventh birthday?</question>
+      <answers>
+        <choice>Monday</choice>
+        <choice>Tuesday</choice>
+        <choice>Thursday</choice>
+      </answers>
+    </item>
+  </section>
+</questions>

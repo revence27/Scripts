@@ -1,0 +1,60 @@
+<questions subject="English Literature" title="Harry Potter and the Philosopher’s Stone">
+  <section title="Chapter Two—The Vanishing Glass">
+    <item>
+      <question ref="20">The only thing which Harry liked about his appearance was?</question>
+      <answers>
+        <choice>his hair</choice>
+        <choice>his nose</choice>
+        <choice>his scar</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="20">According to Aunt Petunia, how did Harry’s parents die?</question>
+      <answers>
+        <choice>in a car crash</choice>
+        <choice>in a fire</choice>
+        <choice>they were murdered</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="22">Dudley’s best friend, Piers Polkiss, had a face like a …?</question>
+      <answers>
+        <choice>baboon</choice>
+        <choice>pig</choice>
+        <choice>rat</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="24">Harry though Dudley looked remarkably like a …?</question>
+      <answers>
+        <choice>gorilla</choice>
+        <choice>hippopotamus</choice>
+        <choice>wildebeest</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="24">What did Dudley eat in the zoo restaurant?</question>
+      <answers>
+        <choice>a banana split</choice>
+        <choice>an Eton mess</choice>
+        <choice>a knickerbocker glory</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="26">Which country do Boa Constrictors come from?</question>
+      <answers>
+        <choice>Belgium</choice>
+        <choice>Botswana</choice>
+        <choice>Brazil</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="27">How many photographs of Harry’s parents were in the Dursley’s home?</question>
+      <answers>
+        <choice>none</choice>
+        <choice>three</choice>
+        <choice>two</choice>
+      </answers>
+    </item>
+  </section>
+</questions>

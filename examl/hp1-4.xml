@@ -1,0 +1,68 @@
+<questions subject="English Literature" title="Harry Potter and the Philosopher’s Stone">
+  <section title="Chapter Four—The Keeper of the Keys">
+    <item>
+      <question ref="39">Which two words are completely capitalised?</question>
+      <answers>
+        <choice>BOOM, and CRASH</choice>
+        <choice>BOOM, and HARRY</choice>
+        <choice>BOOM, and SMASH</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="40">Who is the Keeper of Keys and Grounds at Hogwarts?</question>
+      <answers>
+        <choice>Albus Dumbledore</choice>
+        <choice>Rubeus Hagrid</choice>
+        <choice>Sirius Black</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="40,41">How many sausages did Hagrid give to Harry?</question>
+      <answers>
+        <choice>one</choice>
+        <choice>two</choice>
+        <choice>six</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="43">Who is the Deputy Headmistress for Hogwarts School of Witchcraft and Wizardry?</question>
+      <answers>
+        <choice>Dedalus Diggle</choice>
+        <choice>Minerva McGonagall</choice>
+        <choice>Rubeus Hagrid</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="43">What is a Muggle?</question>
+      <answers>
+        <choice>non-magic people</choice>
+        <choice>a person in a muddle</choice>
+        <choice>a person in a puddle</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="44">What was the name of Petunia's sister?</question>
+      <answers>
+        <choice>Lily</choice>
+        <choice>Lilly</choice>
+        <choice>Munyeenye</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="46">What colour was Hagrid's umbrella?</question>
+      <answers>
+        <choice>maroon</choice>
+        <choice>pink</choice>
+        <choice>red</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="48">What did Hagrid think were in the pockets of his coat?</question>
+      <answers>
+        <choice>cats</choice>
+        <choice>dormice</choice>
+        <choice>pigs</choice>
+      </answers>
+    </item>
+  </section>
+</questions>

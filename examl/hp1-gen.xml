@@ -1,0 +1,258 @@
+<questions subject="English Literature" title="Harry Potter and the Philosopher’s Stone">
+  <section title="Chapter One—The Boy Who Lived">
+    <item>
+      <question ref="7">On which street do the Dursleys reside?</question>
+      <answers>
+        <choice>Private Drive</choice>
+        <choice>Privet Drive</choice>
+        <choice>Provost Drive</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="8">What was the tabby cat reading?</question>
+      <answers>
+        <choice>a map, and a street sign</choice>
+        <choice>a map, and a watch</choice>
+        <choice>a map, and a newspaper</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="9">How many people did Mr. Dursley yell at before lunch?</question>
+      <answers>
+        <choice>eight</choice>
+        <choice>eleven</choice>
+        <choice>five</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="10">Which new word did Dudley learn?</question>
+      <answers>
+        <choice>can’t (can not)</choice>
+        <choice>mayn’t (may not)</choice>
+        <choice>shan’t (shall not)</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="12-13">What colour were the cloaks of Albus Dumbledore and Professor McGonagall?</question>
+      <answers>
+        <choice>pink, and gold</choice>
+        <choice>purple, and emerald</choice>
+        <choice>silver, and black</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="14">What is the real name of “You-Know-Who”?</question>
+      <answers>
+        <choice>Herbert</choice>
+        <choice>Voldemar</choice>
+        <choice>Voldemort</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="16">Who lent Hagrid the motorbike?</question>
+      <answers>
+        <choice>Serious Black</choice>
+        <choice>Seriously Black</choice>
+        <choice>Sirius Black</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="17">What was the shape of the cut on Harry Potter’s forehead?</question>
+      <answers>
+        <choice>a bolt of lightning</choice>
+        <choice>a motorbike</choice>
+        <choice>a peacock feather</choice>
+      </answers>
+    </item>
+  </section>
+  <section title="Chapter Two—The Vanishing Glass">
+    <item>
+      <question ref="20">The only thing which Harry liked about his appearance was?</question>
+      <answers>
+        <choice>his hair</choice>
+        <choice>his nose</choice>
+        <choice>his scar</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="20">According to Aunt Petunia, how did Harry’s parents die?</question>
+      <answers>
+        <choice>in a car crash</choice>
+        <choice>in a fire</choice>
+        <choice>they were murdered</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="22">Dudley’s best friend, Piers Polkiss, had a face like a …?</question>
+      <answers>
+        <choice>baboon</choice>
+        <choice>pig</choice>
+        <choice>rat</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="24">Harry though Dudley looked remarkably like a …?</question>
+      <answers>
+        <choice>gorilla</choice>
+        <choice>hippopotamus</choice>
+        <choice>wildebeest</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="24">What did Dudley eat in the zoo restaurant?</question>
+      <answers>
+        <choice>a banana split</choice>
+        <choice>an Eton mess</choice>
+        <choice>a knickerbocker glory</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="26">Which country do Boa Constrictors come from?</question>
+      <answers>
+        <choice>Belgium</choice>
+        <choice>Botswana</choice>
+        <choice>Brazil</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="27">How many photographs of Harry’s parents were in the Dursley’s home?</question>
+      <answers>
+        <choice>none</choice>
+        <choice>three</choice>
+        <choice>two</choice>
+      </answers>
+    </item>
+  </section>
+  <section title="Chapter Three—The Letters from No One">
+    <item>
+      <question ref="28">What are the names of Dudley’s gang?</question>
+      <answers>
+        <choice>Dennis, Gordon, Malcolm, and Piers</choice>
+        <choice>Dudley, Gordon, Michael, and Peter</choice>
+        <choice>Richard, Gordon, Malcolm, and Polkiss</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="28">What is Dudley’s favourite sport?</question>
+      <answers>
+        <choice>antelope hunting</choice>
+        <choice>Harry hunting</choice>
+        <choice>rabbit hunting</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="30">Where was Uncle Vernon’s sister Marge holidaying?</question>
+      <answers>
+        <choice>Isle of Man</choice>
+        <choice>Isle of Sheppey</choice>
+        <choice>Isle of Wight</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="32">What did Harry’s Uncle and Aunt think he was getting too big for?</question>
+      <answers>
+        <choice>his boots</choice>
+        <choice>his clothes</choice>
+        <choice>his cupboard</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="33">What time did the repaired alarm clock ring?</question>
+      <answers>
+        <choice>6:00</choice>
+        <choice>6:15</choice>
+        <choice>6:42</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="34">Which song did Uncle Vernon hum?</question>
+      <answers>
+        <choice>Tie a Yellow Ribbon Round the Ole Oak Tree</choice>
+        <choice>Tiptoe through the Tulips</choice>
+        <choice>Wish Me Luck as You Wave Me Goodbye</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="34">On Saturday, what did Harry’s letters arrive in?</question>
+      <answers>
+        <choice>eggs</choice>
+        <choice>milk</choice>
+        <choice>pickle jars</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="36">On which day of the week was Harry’s eleventh birthday?</question>
+      <answers>
+        <choice>Monday</choice>
+        <choice>Tuesday</choice>
+        <choice>Thursday</choice>
+      </answers>
+    </item>
+  </section>
+  <section title="Chapter Four—The Keeper of the Keys">
+    <item>
+      <question ref="39">Which two words are completely capitalised?</question>
+      <answers>
+        <choice>BOOM, and CRASH</choice>
+        <choice>BOOM, and HARRY</choice>
+        <choice>BOOM, and SMASH</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="40">Who is the Keeper of Keys and Grounds at Hogwarts?</question>
+      <answers>
+        <choice>Albus Dumbledore</choice>
+        <choice>Rubeus Hagrid</choice>
+        <choice>Sirius Black</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="40,41">How many sausages did Hagrid give to Harry?</question>
+      <answers>
+        <choice>one</choice>
+        <choice>two</choice>
+        <choice>six</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="43">Who is the Deputy Headmistress for Hogwarts School of Witchcraft and Wizardry?</question>
+      <answers>
+        <choice>Dedalus Diggle</choice>
+        <choice>Minerva McGonagall</choice>
+        <choice>Rubeus Hagrid</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="43">What is a Muggle?</question>
+      <answers>
+        <choice>non-magic people</choice>
+        <choice>a person in a muddle</choice>
+        <choice>a person in a puddle</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="44">What was the name of Petunia's sister?</question>
+      <answers>
+        <choice>Lily</choice>
+        <choice>Lilly</choice>
+        <choice>Munyeenye</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="46">What colour was Hagrid's umbrella?</question>
+      <answers>
+        <choice>maroon</choice>
+        <choice>pink</choice>
+        <choice>red</choice>
+      </answers>
+    </item>
+    <item>
+      <question ref="48">What did Hagrid think were in the pockets of his coat?</question>
+      <answers>
+        <choice>cats</choice>
+        <choice>dormice</choice>
+        <choice>pigs</choice>
+      </answers>
+    </item>
+  </section>
+</questions>

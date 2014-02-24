@@ -1,4 +1,13 @@
 #!  /usr/bin/env ruby
+# Take two Zefania XML files and make a coloured fortune cookie database out of them,
+# such that the second one is a translation of the first, and the cookies present
+# the first one for language practice, and the second one for validating answers.
+# To prevent cheating, the translation (the second one) is presented reversed
+# (except for brackets).
+#
+# Cases of [such bracketing] in either source text is used to indicate a linguistic gloss
+# and the fortune files preserve that.
+# Meant for practicing languages with the help of Bible translations.
 
 require 'nokogiri'
 
